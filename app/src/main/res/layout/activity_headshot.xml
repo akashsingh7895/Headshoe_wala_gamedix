@@ -222,27 +222,61 @@
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="16dp"
-                    android:layout_marginRight="32dp"
+                    android:layout_marginRight="16dp"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:src="@drawable/onex" />
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/twox" />
+                        <RadioButton
+                            android:layout_width="70dp"
+                            android:layout_height="50dp"
+                            android:textSize="18dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/round_primary_conners"
+                            android:buttonTint="@color/white"
+                            android:padding="5dp"
+                            android:text="1 X"
+                            android:textColor="@color/white"
+                            android:textStyle="bold">
 
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/threex" />
+                        </RadioButton>
 
+                        <RadioButton
+                            android:layout_width="70dp"
+                            android:layout_height="50dp"
+                            android:textSize="18dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/round_primary_conners"
+                            android:buttonTint="@color/white"
+                            android:padding="5dp"
+                            android:text="2 X"
+                            android:textColor="@color/white"
+                            android:textStyle="bold">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:layout_width="70dp"
+                            android:layout_height="50dp"
+                            android:textSize="18dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/round_primary_conners"
+                            android:buttonTint="@color/white"
+                            android:padding="5dp"
+                            android:text="3 X"
+                            android:textColor="@color/white"
+                            android:textStyle="bold">
+
+                        </RadioButton>
+
+                    </RadioGroup>
 
                 </LinearLayout>
 
@@ -267,7 +301,7 @@
                     android:layout_height="match_parent">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="150dp"
+                        android:layout_width="170dp"
                         android:layout_height="45dp"
                         android:layout_gravity="center"
                         android:layout_marginLeft="16dp"
@@ -281,9 +315,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="Version"
+                            android:text="Mobile Version"
                             android:textColor="@color/dark"
-                            android:textSize="25dp" />
+                            android:textSize="20dp" />
 
                     </androidx.cardview.widget.CardView>
                 </androidx.constraintlayout.widget.ConstraintLayout>
