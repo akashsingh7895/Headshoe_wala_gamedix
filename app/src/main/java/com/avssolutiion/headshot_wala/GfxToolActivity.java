@@ -236,6 +236,8 @@ public class GfxToolActivity extends AppCompatActivity implements MaxAdListener 
             }
         });
 
+
+
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
